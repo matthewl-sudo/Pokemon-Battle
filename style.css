@@ -1,0 +1,17 @@
+.footer{
+    background-color: #000;
+}
+.bulba{ width: 50%;}
+.char { width: 30%; display: inline; position: absolute;}
+img{
+    max-height: 50%;
+}
+#bulba{background-color: black;}
+#charBox{width: 90%;max-width: 100%;}
+@media screen and (max-width: 800px) {#char{width: 150%;}}
+@media(max-width: 767px) {
+  .custom-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
